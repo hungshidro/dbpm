@@ -52,94 +52,94 @@ const routes: Routes = [
   {
     path: 'admin',
     component: DashboardComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/login',
     component: AdminLoginComponent,
-    canActivate: [AdminBeforeLoginService]
+    //canActivate: [AdminBeforeLoginService]
   },
 
   {
     path: 'admin/product',
     component: ProductsComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/product/create',
     component: CreateProductComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/product/edit/:id',
     component: EditProductComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/order',
     component: OrderComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/order/create',
     component: CreateOrderComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/order/edit/:id',
     component: EditOrderComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/customer',
     component: CustomerComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/customer/edit/:id',
     component: EditCustomerComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
 
   },
   {
     path: 'admin/signup',
     component: AdminSignupComponent,
-    canActivate: [AdminBeforeLoginService]
+    //canActivate: [AdminBeforeLoginService]
 
   },
   {
     path: 'admin/request-password-reset',
     component: RequestResetPasswordComponent,
-    canActivate: [AdminBeforeLoginService]
+    //canActivate: [AdminBeforeLoginService]
   },
   {
     path: 'admin/response-password-reset',
     component: ResponseResetPasswordComponent,
-    canActivate: [AdminBeforeLoginService]
+    //canActivate: [AdminBeforeLoginService]
 
   },
   {
     path: 'admin/discount',
     component: DiscountComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
   },
   {
     path: 'admin/discount/create',
     component: CreateDiscountComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
   },
   {
     path: 'admin/discount/edit/:id',
     component: EditDiscountComponent,
-    canActivate: [AdminAfterLoginService]
+    //canActivate: [AdminAfterLoginService]
   },
 ];
 
