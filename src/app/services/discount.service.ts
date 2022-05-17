@@ -5,7 +5,7 @@ import {HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class DiscountService {
-  baseUrl = 'http://localhost:8000/api/discount'
+  baseUrl = 'https://frozen-journey-44080.herokuapp.com/api/discount'
 
   constructor(
     private http:HttpClient,

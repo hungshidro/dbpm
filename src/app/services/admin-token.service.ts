@@ -6,8 +6,8 @@ import { Injectable } from '@angular/core';
 export class AdminTokenService {
 
   private iss = {
-    login: 'http://localhost:8000/api/admin/login',
-    signup: 'http://localhost:8000/api/admin/signup',
+    login: 'https://frozen-journey-44080.herokuapp.com/api/admin/login',
+    signup: 'https://frozen-journey-44080.herokuapp.com/api/admin/signup',
   }
 
   constructor() { }

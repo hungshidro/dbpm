@@ -6,7 +6,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class AddressService {
 
-  baseUrl = 'http://localhost:8000/api/customer';
+  baseUrl = 'https://frozen-journey-44080.herokuapp.com/api/customer';
 
   constructor(
     private http: HttpClient,

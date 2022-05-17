@@ -5,7 +5,7 @@ import {HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class AdminUserService {
-  private baseUrl = 'http://localhost:8000/api/admin'
+  private baseUrl = 'https://frozen-journey-44080.herokuapp.com/api/admin'
   constructor(
     private http:HttpClient,
 
